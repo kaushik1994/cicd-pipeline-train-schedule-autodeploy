@@ -35,7 +35,7 @@ spec:
       - name: train-schedule
         image: 7100071/train-schedule:1
         ports:
-        - containerPort: 8080
+        - containerPort: 308080
         livenessProbe:
           httpGet:
             path: /
